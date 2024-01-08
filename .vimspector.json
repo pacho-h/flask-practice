@@ -1,0 +1,26 @@
+{
+  "configurations": {
+    "Python-vimspector: Launch": {
+      "adapter": "debugpy",
+      "filetypes": [ "python" ],
+      "breakpoints": {
+        "exception": {
+          "raised": "N",
+          "uncaught": "Y",
+          "userUnhandled": "Y"
+        }
+      },
+      "configuration": {
+        "name": "Python-vimspector: Launch",
+        "type": "python",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "python": "/Users/han/Library/Caches/pypoetry/virtualenvs/flask-practice-GjRq-s0q-py3.12/bin/python",
+        "stopOnEntry": true,
+        "console": "externalTerminal",
+        "debugOptions": ["-i"],
+        "program": "${file}"
+      }
+    }
+  }
+}
