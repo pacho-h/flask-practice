@@ -13,7 +13,3 @@ poetry install
 ```bash
 poetry run python wsgi.py
 ```
-or
-```bash
-poetry run flask run --debug -h "0.0.0.0" -p 5555 --no-debugger --no-reload
-```
